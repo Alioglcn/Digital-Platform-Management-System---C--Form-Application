@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74D46DC5-5EAD-4A3C-993F-D7B39A10FA4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DigitalPlatformManagementSystm</RootNamespace>
+    <AssemblyName>DigitalPlatformManagementSystm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ali_o\Desktop\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/DigitalPlatformManagementSystm/</UpdateUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACTORS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACTORS.Designer.cs">
+      <DependentUpon>ACTORS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINPANEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINPANEL.Designer.cs">
+      <DependentUpon>ADMINPANEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AUDIENCES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AUDIENCES.Designer.cs">
+      <DependentUpon>AUDIENCES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BILLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BILLS.Designer.cs">
+      <DependentUpon>BILLS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTENTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTENTS.Designer.cs">
+      <DependentUpon>CONTENTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DigitalPlatformManagementSystemDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DigitalPlatformManagementSystemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FEATURES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEATURES.Designer.cs">
+      <DependentUpon>FEATURES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOMEPACKAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOMEPACKAGE.Designer.cs">
+      <DependentUpon>HOMEPACKAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REVIEWS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REVIEWS.Designer.cs">
+      <DependentUpon>REVIEWS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STREAMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STREAMS.Designer.cs">
+      <DependentUpon>STREAMS.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ACTORS.resx">
+      <DependentUpon>ACTORS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINPANEL.resx">
+      <DependentUpon>ADMINPANEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUDIENCES.resx">
+      <DependentUpon>AUDIENCES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BILLS.resx">
+      <DependentUpon>BILLS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTENTS.resx">
+      <DependentUpon>CONTENTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEATURES.resx">
+      <DependentUpon>FEATURES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOMEPACKAGE.resx">
+      <DependentUpon>HOMEPACKAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="REVIEWS.resx">
+      <DependentUpon>REVIEWS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STREAMS.resx">
+      <DependentUpon>STREAMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DigitalPlatformManagementSystemDataSet.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet1.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet1.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet2.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet2.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet3.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet3.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet4.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet4.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet5.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet5.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet6.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet6.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet7.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet7.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet8.xsc">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DigitalPlatformManagementSystemDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DigitalPlatformManagementSystemDataSet8.xss">
+      <DependentUpon>DigitalPlatformManagementSystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,18 @@
+There is a panel on the first form. This called iss "Admin Panel". Admin should login with username and password.
+
+username = adminpanel
+password = 654321
+
+After login, there will be open other form. There are 7 buttons representing the tables in the database. You should click on that button on which table you want to process.
+
+For example, if you enter audience button, there will open "customers operations" form. There are textboxes and a datagridview in order to see all datas on the database. 
+
+If you want to add any data, fill the textboxes and click on the (+) button.
+If you want to delete any data, just select it from the row from the datagridview and click on the (delete) button.
+If you want to update any data, just select it and datas will fills the textboxes automatically and change them from textboxes and click on the (update) button.
+
+Clear button for clean all the textboxes.
+
+The process is same for all tables. If you want to log out from the system, just click the exit and the system ask you like are you sure ? You should say "Yes".
+
+Note : Please be carefull duplicate primary keys when you add a new data. I suggest you to choose id > 1000 when you add new data in all tables.
